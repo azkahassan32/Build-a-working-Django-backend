@@ -1,4 +1,4 @@
-# 🧠 Django Core Backend Project
+# Django Core Backend Project
 
 This is a **complete Django Core backend project** built step-by-step to understand Django fundamentals, ORM, admin panel, authentication, and best practices.  
 
@@ -17,7 +17,7 @@ Build a working Django backend with:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 django project/
 ├─ venv/
