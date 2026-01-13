@@ -6,3 +6,37 @@ This branch contains:
 - Functional simple Django project
 - Admin panel setup and migrations
 - Requirements and README for reference
+
+
+1- open shell by:
+python manage.py shell 
+in core folder while venv is running.
+
+then add this "
+from users.models import Profile
+" in shell repl
+
+2- create profile with this "Profile.objects.create(name="osaka", age=30) 
+3- read all data with this "Profile.objects.all()"
+4- for read all user name with age:
+"
+for profile in Profile.objects.all():
+    print(profile.name, profile.age)
+    "
+5- Filter records:
+"Profile.objects.filter(age__gt=50)"
+# Returns all profiles with age greater than 50
+
+6- Update records:
+"
+p = Profile.objects.get(name="user1")
+p.age = 21
+p.save()
+"
+
+7- Loop through all records nicely:
+"
+for p in Profile.objects.all():
+    print(f"ID: {p.id}, Name: {p.name}, Age: {p.age}")
+
+"
