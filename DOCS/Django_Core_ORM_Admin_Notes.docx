@@ -1,13 +1,8 @@
-Profile + Post models
+# Branch 2 - Django Core + ORM + Admin Notes
 
-Admin panel registration
+This branch contains:
 
-Migration commands
-
-ORM CRUD examples
-
-Common errors & fixes
-
-Step-by-step explanations
-
-Essentially, copy all the full notes you wrote for “Django Core + ORM + Admin — Complete Notes
+- DOCS: Complete notes with errors/fixes and ORM examples
+- Functional simple Django project
+- Admin panel setup and migrations
+- Requirements and README for reference
